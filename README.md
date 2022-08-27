@@ -1,4 +1,4 @@
-# Webpack Frontend Starterkit
+# Codemirror Playground
 
 A lightweight foundation to play with and test codemirror in browser
 
