@@ -58,8 +58,10 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@codemirror/lang-html": "^6.1.0",
     "@codemirror/state": "^6.1.1",
     "@codemirror/view": "^6.2.1",
+    "@emmetio/codemirror6-plugin": "^0.2.0",
     "core-js": "^3.20.3"
   }
 }
