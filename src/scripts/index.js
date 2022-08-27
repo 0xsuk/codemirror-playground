@@ -1,3 +1,3 @@
-import '../styles/index.scss';
+import { EditorState } from "@codemirror/state";
 
-console.log('webpack starterkit');
+console.log(EditorState);

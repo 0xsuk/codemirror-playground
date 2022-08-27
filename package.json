@@ -58,6 +58,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@codemirror/state": "^6.1.1",
+    "@codemirror/view": "^6.2.1",
     "core-js": "^3.20.3"
   }
 }
