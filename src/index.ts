@@ -1,9 +1,5 @@
-import { EditorState } from "@codemirror/state";
-import { EditorView } from "@codemirror/view";
+export type A = {};
 
-new EditorView({
-  state: EditorState.create({
-    doc: "hello",
-  }),
-  parent: document.getElementById("codemirror") as HTMLElement,
-});
+export const a = (b: A) => {
+  console.log(b);
+};

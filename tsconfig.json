@@ -3,6 +3,8 @@
     "target": "es2020" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "module": "commonjs" /* Specify what module code is generated. */,
     "sourceMap": true /* Create source map files for emitted JavaScript files. */,
+    "declaration": true,
+    "outDir": "./dist",
     "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
     "strictNullChecks": true /* When type checking, take into account 'null' and 'undefined'. */,
     "strictFunctionTypes": true /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */,
@@ -17,4 +19,3 @@
   },
   "include": ["./src/**/*.ts"]
 }
-

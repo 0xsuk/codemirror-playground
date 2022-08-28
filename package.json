@@ -1,7 +1,10 @@
 {
   "name": "webpack-starter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "0xsuk",
   "license": "MIT",
@@ -10,7 +13,8 @@
     "typescript": "^4.8.2",
     "webpack": "^5.66.0",
     "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.7.3"
+    "webpack-dev-server": "^4.7.3",
+    "webpack-merge": "^5.8.0"
   },
   "dependencies": {
     "@codemirror/state": "^6.1.1",
