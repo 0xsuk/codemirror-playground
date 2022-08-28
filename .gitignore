@@ -1,6 +1,5 @@
 # dependencies
-node_modules/*
-!node_modules/@emmetio/codemirror6-plugin/dist/plugin.js
+node_modules
 
 # production
 build
