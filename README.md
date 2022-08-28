@@ -14,3 +14,13 @@ npm install
 npm start
 ```
 
+It's going to load src/dev.ts
+
+### Build
+
+```sh
+npm run build 
+```
+
+It's going to build src/index.ts and generate dist/index.js and dist/index.d.ts
+
