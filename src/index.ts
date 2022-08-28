@@ -5,5 +5,5 @@ new EditorView({
   state: EditorState.create({
     doc: "hello",
   }),
-  parent: document.getElementById("codemirror"),
+  parent: document.getElementById("codemirror") as HTMLElement,
 });
